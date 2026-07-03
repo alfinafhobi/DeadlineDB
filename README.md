@@ -208,14 +208,19 @@ Detailed documentation is available in the **docs/** folder:
 
 ## 📸 Screenshots
 
+### Dashboard
 ![Dashboard](screenshots/Dashboard.jpg)
 
+### Personal Board
 ![Personal Board](screenshots/personalboard.jpg)
 
-![Calender](screenshots/calendar.jpg)
+### Calendar
+![Calendar](screenshots/calendar.jpg)
 
-![Remainder center](screenshots/Remaindercenter.jpg)
+### Reminder Center
+![Reminder Center](screenshots/Remaindercenter.jpg)
 
+### Integrations
 ![Integrations](screenshots/Integrations.jpg)
 
 ---
