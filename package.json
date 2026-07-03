@@ -1,0 +1,46 @@
+{
+  "name": "deadlinedb",
+  "version": "1.0.0",
+  "description": "College assignment aggregator and student productivity dashboard",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "start:prod": "node server.js",
+    "seed:demo": "node scripts/seedDemo.js",
+    "backfill:deadline-metadata": "node scripts/backfillDeadlineMetadata.js",
+    "test:deadline-parser": "node scripts/testDeadlineParser.js",
+    "test:integration-filters": "node scripts/testIntegrationFilters.js",
+    "test:telegram-diagnostics": "node scripts/testTelegramDiagnostics.js",
+    "test:telegram-connectivity": "node scripts/testTelegramConnectivity.js",
+    "test:telegram-flows": "node scripts/testTelegramFlowBehaviors.js",
+    "test:telegram-updates": "node scripts/testTelegramUpdates.js",
+    "check:syntax": "node --check server.js && node --check src/routes/authRoutes.js && node --check src/routes/assignmentRoutes.js && node --check src/routes/integrationRoutes.js && node --check src/routes/noteRoutes.js && node --check src/routes/reminderRoutes.js && node --check src/routes/roomRoutes.js && node --check src/services/dashboardService.js && node --check src/services/deadlineExtractionService.js && node --check src/services/gmailAdapter.js && node --check src/services/googleClassroomAdapter.js && node --check src/services/googleOAuthService.js && node --check src/services/passwordResetService.js && node --check src/services/providerNormalizationService.js && node --check src/services/secureTokenService.js && node --check src/services/sourceSyncSchedulerService.js && node --check src/services/sourceSyncService.js && node --check src/services/telegramAdapter.js && node --check src/services/reminderSchedulerService.js && node --check public/js/api.js && node --check public/js/auth.js && node --check public/js/dashboard.js && node --check scripts/testDeadlineParser.js && node --check scripts/backfillDeadlineMetadata.js && node --check scripts/testIntegrationFilters.js && node --check scripts/testTelegramDiagnostics.js && node --check scripts/testTelegramConnectivity.js && node --check scripts/testTelegramFlowBehaviors.js && node --check scripts/testTelegramUpdates.js"
+  },
+  "keywords": [
+    "college",
+    "assignments",
+    "dashboard",
+    "mongodb",
+    "bootstrap",
+    "jquery"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.3.2",
+    "helmet": "^8.1.0",
+    "https-proxy-agent": "^7.0.6",
+    "joi": "^18.1.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^7.1.1",
+    "mongodb-memory-server": "^10.1.4",
+    "mongoose": "^8.9.2",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^8.0.5"
+  }
+}
