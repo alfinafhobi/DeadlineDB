@@ -212,10 +212,13 @@ Detailed documentation is available in the **docs/** folder:
 ![Dashboard](screenshots/Dashboard.jpg)
 
 ### Personal Board
-![Personal Board](screenshots/personalboard.jpg)
+![Personal Board](screenshots/personal board.jpg)
 
 ### Calendar
 ![Calendar](screenshots/calendar.jpg)
+
+### Reminder Center
+![Reminder Center](screenshots/Remainder center.jpg)
 
 ### Integrations
 ![Integrations](screenshots/Integrations.jpg)
