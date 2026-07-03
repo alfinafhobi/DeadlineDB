@@ -96,7 +96,7 @@ flowchart LR
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 DeadlineDB/
@@ -120,7 +120,7 @@ DeadlineDB/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Clone the Repository
 
