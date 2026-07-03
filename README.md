@@ -217,9 +217,6 @@ Detailed documentation is available in the **docs/** folder:
 ### Calendar
 ![Calendar](screenshots/calendar.jpg)
 
-### Reminder Center
-![Reminder Center](screenshots/Remaindercenter.jpg)
-
 ### Integrations
 ![Integrations](screenshots/Integrations.jpg)
 
