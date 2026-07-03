@@ -208,18 +208,15 @@ Detailed documentation is available in the **docs/** folder:
 
 ## 📸 Screenshots
 
-> Add screenshots of the following pages after deployment:
+![Dashboard](screenshots/Dashboard.jpg)
 
-- Login Page
-- Dashboard
-- Kanban Board
-- Calendar View
-- Notes Module
-- Reminders Module
-- Integrations
-- My Rooms
-- Room Details
-- Faculty Dashboard
+![Personal Board](screenshots/personalboard.jpg)
+
+![Calender](screenshots/calendar.jpg)
+
+![Remainder center](screenshots/Remaindercenter.jpg)
+
+![Integrations](screenshots/Integrations.jpg)
 
 ---
 
